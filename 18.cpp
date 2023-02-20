@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
-#include <array>
+using namespace std;
     int main(){
-      std::string text;
-      std::getline(std::cin,text);
-      int k;
-      std::cin»k;
-      text.erase(k-1,1);
-      std::cout«text;
-      return 0;
+ 	std::string text;
+	int k;
+	std::getline(std::cin,text);
+ 	std::cin»k;
+	k-=1;
+	text.erase(k-1,1);
+	std::cout«text<<endl;
+	return 0;
     }

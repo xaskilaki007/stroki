@@ -1,3 +1,4 @@
+//18 задание: Дана строка. Удалите k-ый символ в ней.
 #include <iostream>
 #include <string>
 

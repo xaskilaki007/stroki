@@ -3,7 +3,7 @@
 #include <iostream>
 #include<string>
 
-void FindSubStr(std::string &str, std::string substr)
+void FindSubStr(std::string &str, std::string substr)//Find всегда ищет подстроку в скобках
 {
     if(str.find(substr) != std::string::npos) //если find не возращает -1, т. е. подстрока найдена
         std::cout << "Yes" << std::endl;
